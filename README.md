@@ -23,13 +23,15 @@ We compress historical market data using feature extraction and pattern summariz
 - Streamlit (optional)
 
 ## Project Structure
-financial-trading-agent/
+project/
 │
-├── data/
-├── models/
-├── agent.py
-├── compression.py
-├── decision_engine.py
+├── market_data_compression_agent.py
+├── backtesting_engine.py
+├── performance_metrics.py
+├── cost_analysis.py
+├── data_simulator.py
+├── main.py
+├── requirements.txt
 └── README.md
 
 ## How It Works
